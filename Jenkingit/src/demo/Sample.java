@@ -1,5 +1,7 @@
 package demo;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,7 +13,7 @@ public class Sample {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/upload/");
 		driver.manage().window().maximize();
-		System.out.println("jhjkh");
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 	}
 
