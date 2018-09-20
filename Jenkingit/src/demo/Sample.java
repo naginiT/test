@@ -11,6 +11,7 @@ public class Sample {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/upload/");
 		driver.manage().window().maximize();
+		System.out.println("jhjkh");
 
 	}
 
