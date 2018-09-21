@@ -15,6 +15,7 @@ public class Sample {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println("hello");
+		System.out.println("hi");
 
 	}
 
